@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>P&M studio</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.12.0/baguetteBox.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.12.0/baguetteBox.min.js" async></script>
+
+        <link rel="stylesheet" href="css/core.css">
+        <link rel="stylesheet" href="css/local.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Playwrite+NO:wght@100..400&display=swap" rel="stylesheet">
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- ============================================ -->
+        <!--                 Navigation                   -->
+        <!-- ============================================ -->
+
+        <header id="cs-navigation">
+            <div class="cs-container">
+                <!--Nav Logo-->
+                <a href="" class="cs-logo" aria-label="back to home">
+                    <img src="/images/PM_Studio_logo.png" alt="logo" width="210" height="29" aria-hidden="true" decoding="async">
+                </a>
+                <!--Nav Title-->
+                <h1>P&M studio</h1>
+                <!--Navigation List-->
+                <nav class="cs-nav" role="navigation">
+                    <!--Mobile Nav Toggle-->
+                    <button class="cs-toggle" aria-label="mobile menu toggle">
+                        <span class="cs-box" aria-hidden="true">
+                            <span class="cs-line cs-line1" aria-hidden="true"></span>
+                            <span class="cs-line cs-line2" aria-hidden="true"></span>
+                            <span class="cs-line cs-line3" aria-hidden="true"></span>
+                        </span>
+                    </button>
+                    <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+                    <div class="cs-ul-wrapper">
+                        <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                            <li class="cs-li">
+                                <a href="" class="cs-li-link cs-active">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="cs-li">
+                                <a href="" class="cs-li-link">
+                                    Classes and Prices
+                                </a>
+                            </li>
+                            <li class="cs-li">
+                                <a href="" class="cs-li-link">
+                                    About Us
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <a href="" class="cs-button-solid cs-nav-button">Book now</a>
+            </div>
+        </header>
+        
+        <!-- ============================================ -->
+        <!--                    Hero                      -->
+        <!-- ============================================ -->
+
+        <section id="hero-1785">
+            <div class="cs-container">
+                <div class="cs-content">
+                    <span class="cs-topper">Best Pilate Private Classes Of The City </span>
+                    <h1 class="cs-title">Discover Your Flexibility</h1>
+                    <p class="cs-text">
+                        Jan 2026 marked 10 years since opening the Studio. So many changes have happened over those years, and I'm sure there'll be more to come.
+                    </p>
+                    <div class="cs-button-group">
+                        <a href="" class="cs-button-solid cs-button1">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Background video -->
+            <video 
+                class="cs-background" 
+                src="/images/2024-hero-video-hd-comp.mp4"
+                width="1920" height="1200" 
+                autoplay muted loop playsinline>
+            </video>
+            <img class="cs-graphic" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/white-splatter2.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async" >
+        </section>
+        <!-- ============================================ -->
+        <!--                  Side By Side                -->
+        <!-- ============================================ -->
+
+        <section id="RPsbs-1587">
+            <div class="cs-container">
+                <picture class="cs-picture">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="/images/pilate1.png">
+                    <img loading="lazy" decoding="async" src="/images/pilate1.png" alt="models">
+                </picture>
+                <div class="cs-content">
+                    <span class="cs-topper">Brief Introduction</span>
+                    <h2 class="cs-title">What is pilates?</h2>
+                    <ul class="cs-card-group">
+                        <li class="cs-item">
+                            <div class="wrapper">
+                                <span class="cs-item-number">01</span>
+                                <h3 class="cs-h3">
+                                    Origin
+                                </h3>
+                            </div>
+                            <p class="cs-item-text">
+                               Developed by Joseph Pilates in the early 20th century. Based on yoga, martial arts, and ancient Greek and Roman physical regimes.<br>
+                               6 original principles:<br> 
+                               <b>Concentration, Control, Center, Flow, Precision, Breathing.</b>
+
+                            </p>
+                        </li>
+                        <li class="cs-item">
+                            <div class="wrapper">
+                                <span class="cs-item-number">02</span>
+                                <h3 class="cs-h3">
+                                    What is in our courses?
+                                </h3>
+                            </div>
+                            <p class="cs-item-text">
+                                We still use much of what Joseph Pilates created originally. Pilates method is a mind and body practice. When done regularly, it can improve flexibility, build strength and develop control and endurance in the body.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!--              Side By Side Reverse            -->
+        <!-- ============================================ -->
+
+        <section id="RPsbsr-1587">
+            <div class="cs-container">
+                <picture class="cs-picture">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="images/pilate2.png">
+                    <img loading="lazy" decoding="async" src="images/pilate2.png" alt="models">
+                </picture>
+                <div class="cs-content">
+                    <span class="cs-topper">Thinking of Joining Us?</span>
+                    <h2 class="cs-title">The Gate to Heathness and Happiness of All Time</h2>
+                    <ul class="cs-card-group2">
+                        <li class="cs-item">
+                            <div class="wrapper">
+                                <span class="cs-item-number">01</span>
+                                <h3 class="cs-h3">
+                                    Work with us
+                                </h3>
+                            </div>
+                            <p class="cs-item-text">
+                                We aim to deliver the highest possible quality of the P&M’s methodology, as well as connecting with each client that walks through our studio doors. We are always on the lookout for new staff that embody these traits and are looking to teach both reformer and hot Pilates.
+                            </p>
+                        </li>
+        
+                    </ul>
+                    <a href="" class="cs-button-solid">Join us</a>
+                </div>
+            </div>
+        </section>
+        <!-- ============================================ -->
+        <!--                   Events                     -->
+        <!-- ============================================ -->
+
+        <section id="events-1652">
+            <div class="cs-container">
+                <div class="cs-image">
+                    <picture class="cs-picture">
+                        <img loading="lazy" decoding="async" src="/images/Pilate_1-CC-BY.jpg" alt="busines meeting" width="522" height="609" aria-hidden="true">
+                    </picture>
+                </div>
+                <div class="cs-events">
+                    <div class="cs-content">
+                        <span class="cs-topper">Our Events</span>
+                        <h2 class="cs-title">Upcoming Events</h2>
+                    </div>
+                    <ul class="cs-card-group">
+                        <li class="cs-item">
+                            <span class="cs-date">
+                                <strong>23</strong>
+                                Jan
+                            </span>
+                            <div class="cs-info-wrapper">
+                                <div class="cs-info">
+                                    <h3 class="cs-h3">10 Year Anniversary</h3>
+                                    <span class="cs-intro">Celebrate and recollect to our 10 Year foorsteps</span>
+                                    <span class="cs-time">
+                                        <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-clock.svg" alt="icon" width="24" height="24" loading="lazy" decoding="async" aria-hidden="true">
+                                        12:00AM - 09:00PM
+                                    </span>
+                                </div>
+                                <div class="cs-button-wrapper">
+                                    <a href="" class="cs-button-solid">Get Ticket</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cs-item">
+                            <span class="cs-date">
+                                <strong>20</strong>
+                                Feb
+                            </span>
+                            <div class="cs-info-wrapper">
+                                <div class="cs-info">
+                                    <h3 class="cs-h3">Consulting Excellence Conference</h3>
+                                    <span class="cs-intro">Free Short pilate Trial</span>
+                                    <span class="cs-time">
+                                        <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-clock.svg" alt="icon" width="24" height="24" loading="lazy" decoding="async" aria-hidden="true">
+                                        02:00AM - 4:00PM
+                                    </span>
+                                </div>
+                                <div class="cs-button-wrapper">
+                                    <a href="" class="cs-button-solid">Get Ticket</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div> 
+        </section>
+        <!-- ============================================ -->
+        <!--                   Gallery                    -->
+        <!-- ============================================ -->
+        <script>
+            window.addEventListener('load', function() {
+                baguetteBox.run('.gallery-grid');
+            });
+        </script>
+        <section id="gallery">
+            <div class="cs-container">
+                <h2 class="cs-title">Studio Gallery</h2>
+                
+                <div class="gallery-grid">
+                    
+                    <a href="images/pilate_PD.jpg" data-caption="Pilate moves">
+                        <img src="images/pilate_PD.jpg" alt="Pilate moves">
+                    </a>
+                    
+                    <a href="images/studio_background.png" data-caption="Reformer Detail">
+                        <img src="images/studio_background.png" alt="Reformer Detail">
+                    </a>
+                    
+                    <a href="images/pilate3.png" data-caption="Class in session">
+                        <img src="images/pilate3.png" alt="Class in session">
+                    </a>
+
+                    </div>
+            </div>
+        </section>
+        
+    
+    <!-- ============================================ -->
+    <!--                   Footer                     -->
+    <!-- ============================================ -->
+
+        <footer id="cs-footer-269">
+            <div class="cs-container">
+                <!-- Logo Group -->
+                <div class="cs-logo-group">
+                    <a aria-label="go back to home" class="cs-logo" href="">
+                        <img class="cs-logo-img light" aria-hidden="true" loading="lazy" decoding="async" src="/images/PM_Studio_logo.png" alt="logo" width="240" height="32">
+                    </a>
+                    <p class="cs-text">
+                        This is a MCD 4740 Website project, with Codestitch, do not copy.<br>
+                        <span class="copyright">
+                            &copy; 2026 P&M Studio. All Rights Reserved. <br>
+                            <span class="cs-separater">|</span> 
+                            Website by <a href="mailto:zlia0085@student.monash.edu" target="_blank" class="cs-contact-link">@Zhanshuo_Liang</a>
+                        </span>
+                    </p>
+                </div>
+                <!-- Links -->
+                <ul class="cs-nav">
+                    <li class="cs-nav-li">
+                        <span class="cs-header">Sitemap</span>
+                    </li>
+                    <li class="cs-nav-li">
+                        <a class="cs-nav-link" href="">Home</a>
+                    </li>
+                    <li class="cs-nav-li">
+                        <a class="cs-nav-link" href="">Classes & Prices</a>
+                    </li>
+                    <li class="cs-nav-li">
+                        <a class="cs-nav-link" href="">About Us</a>
+                    </li>
+                </ul>
+                <!-- Contact Info -->
+                <ul class="cs-contact">
+                    <li class="cs-nav-li">
+                        <span class="cs-header">Contact</span>
+                    </li>
+                    <li class="cs-contact-li">
+                        <a class="cs-contact-link" href="">(MCD) 474-0085</a>
+                    </li>
+                    <li class="cs-contact-li">
+                        <a class="cs-contact-link" href="mailto:zlia0085@student.monash.edu">zlia0085@student.monash.edu</a>
+                    </li>
+                    <!-- Social Media -->
+                    <li class="cs-contact-li cs-social-group">
+                        <div class="cs-social">
+                            <a class="cs-social-link" aria-label="visit google profile" href="">
+                                <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/google.svg" alt="google" width="11" height="11">
+                            </a>
+                            <a class="cs-social-link" aria-label="visit facebook profile" href="">
+                                <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/Facebook.svg" alt="facebook" width="6" height="11">
+                            </a>
+                            <a class="cs-social-link" aria-label="visit instagram profile" href="">
+                                <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/instagram.svg" alt="instagram" width="11" height="11">
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
